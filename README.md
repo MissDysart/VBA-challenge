@@ -1,6 +1,10 @@
 # VBA-challenge
 Module 2 Challenge
 
+The Final Version is "Final VBA Challenge 2 for All Worksheets.vbs"
+
+Supplemental code used to test in "alphabetical_testing" was "Final VBA Challenge 2 Alphabet test.vbs"
+
 Objectives:
 1. Check each row of the <ticker> column and put name of ticker in a summary table in column (or Range) "K"
 2. For each <ticker> find the daily change (close minus open) and add together to get Yearly Change. Print total in column "L"
@@ -11,7 +15,7 @@ Relied heavily on the credit card charge example and Census example from Module 
 
 
 Issues:
-I couldn't figure out how to use the Match or Lookup Functions to get the Ticker that in Greatest % Increase, Greatest % Decrease, Greatest Total Volume. This is how far I got:
+I couldn't figure out how to use the Match or Lookup Functions to get the Ticker that corresponded to the Greatest % Increase, Greatest % Decrease, Greatest Total Volume. I tried looking it up and asking the Xpert Learning Assistant to try to debug my code. This is how far I got:
 
 'match min, max, volume to Ticker
 Dim lookupRange As Range
